@@ -1,0 +1,26 @@
+@import 'sass/variables';
+
+.App {
+  background-color: $color-light-gray;
+  height: 100vh;
+  position: relative;
+
+  .barcode-container {
+    background-color: $color-white;
+    width: 15%;
+    min-width: 25rem;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 2rem 0 5rem rgba($color-black, 0.1);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    &__img {
+      border-radius: 10px;
+      width: 100%;
+    }
+  }
+}

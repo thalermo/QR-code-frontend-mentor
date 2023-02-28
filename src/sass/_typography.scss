@@ -1,0 +1,16 @@
+@import 'variables';
+
+.t-title {
+  color: $color-dark-blue;
+  font-family: $ff-primary;
+  font-size: 2.2rem;
+  font-weight: $fw-bold;
+  text-align: center;
+}
+.t-sub {
+  font-family: $ff-primary;
+  font-size: 1.6rem;
+  font-weight: $fw-normal;
+  color: $color-grey;
+  text-align: center;
+}
